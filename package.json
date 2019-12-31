@@ -1,0 +1,22 @@
+{
+  "name": "@lihkg-backup/updater",
+  "main": "dist/main.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihkg-backup/updater.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lihkg-backup/updater/issues"
+  },
+  "homepage": "https://github.com/lihkg-backup/updater#readme",
+  "dependencies": {
+    "@octokit/plugin-retry": "^2.2.0",
+    "@octokit/rest": "^16.36.0",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "start": "node update.js"
+  }
+}
