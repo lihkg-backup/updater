@@ -13,8 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: |
-          npm install
-          npm start
+      - run: npm install
+      - run: npm start
         env:
           AUTH_TOKEN: ${{secrets.auth_token}}
