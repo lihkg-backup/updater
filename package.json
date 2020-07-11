@@ -12,8 +12,10 @@
   },
   "homepage": "https://github.com/lihkg-backup/updater#readme",
   "dependencies": {
-    "@octokit/plugin-retry": "^2.2.0",
-    "@octokit/rest": "^16.36.0",
+    "@octokit/plugin-retry": "^3.0.3",
+    "@octokit/rest": "^18.0.0",
+    "ipfs-http-client": "^44.3.0",
+    "ipfs-unixfs-importer": "^2.0.2",
     "node-fetch": "^2.6.0"
   },
   "scripts": {
