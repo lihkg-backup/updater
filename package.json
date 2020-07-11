@@ -16,7 +16,8 @@
     "@octokit/rest": "^18.0.0",
     "ipfs-http-client": "^44.3.0",
     "ipfs-unixfs-importer": "^2.0.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "p-queue": "^6.5.0"
   },
   "scripts": {
     "start": "node update.js"
